@@ -1,0 +1,36 @@
+{
+    "bot": {
+        "token": "6689906797:AAEKnJ1WtL7oiZGFnNd50tpHTsstXtcOvzM",
+        "polling": true,
+        "use_redis": true,
+        "skip_updates": false,
+        "webhook": {
+            "url": "https://0ee4-213-230-88-151.ngrok.io",
+            "host": "127.0.0.1",
+            "port": 8080,
+            "path": "/webhook"
+        },
+        "username": "hexdevop_test_bot"
+    },
+    "database": {
+        "master": {
+            "user": "root",
+            "password": "1234",
+            "host": "localhost",
+            "database": "database"
+        },
+        "slaves": [
+            {
+                "user": "root",
+                "password": "1234",
+                "host": "localhost",
+                "database": "database"
+            }
+        ],
+        "debug": false
+    },
+    "redis": {
+        "host": "localhost",
+        "db": 0
+    }
+}
